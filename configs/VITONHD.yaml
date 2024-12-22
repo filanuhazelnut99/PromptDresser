@@ -1,0 +1,32 @@
+no_pose: True
+use_jointcond: True
+no_ipadapter: True
+
+use_interm_cloth_mask: True
+interm_cloth_start_ratio: 0.5
+
+dataset:
+  dataset_name: "VITONHDDataset"
+  data_root_dir: "./DATA/zalando-hd-resized"
+  img_spatial_transform_lst:
+  - "randomresizedcrop"
+  - "randomaffine"
+  cloth_spatial_transform_lst:
+  - "randomresizedcrop"
+  - "randomaffine"
+  img_cloth_spatial_transform_lst:
+  - "hflip"
+  color_transform_lst:
+  - "colorjitter"
+  i_drop_rate: 0.05
+  pose_type: "densepose"
+  train_folder_name: train_fine
+  test_folder_name: test_fine
+  prompt_version: v12
+  text_file_postfix: "gpt4o.json"
+  train_folder_name_for_interm_cloth_mask: train_coarse
+  test_folder_name_for_interm_cloth_mask: test_coarse
+  use_rand_dilate: True
+
+  rand_dilate_miniter: 0
+  rand_dilate_maxiter: 200
