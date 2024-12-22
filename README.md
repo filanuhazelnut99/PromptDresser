@@ -11,7 +11,7 @@ This repository is the official implementation of [PromptDresser](TODO: arXiv li
 ## TODO List
 - [v] ~~Inference code~~
 - [v] ~~Release model weights~~
-- [ ] Training code
+- [] Training code
 
 ## Environments
 ```bash
