@@ -1,17 +1,17 @@
 # PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask
-This repository is the official implementation of [PromptDresser](TODO: arxiv link)
+This repository is the official implementation of [PromptDresser](TODO: arXiv link)
 
 > **PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask**<br>
-> [Jeongho Kim](https://scholar.google.co.kr/citations?user=4SCCBFwAAAAJ&hl=ko),[Hoiyeong Jin](https://scholar.google.com/citations?user=Jp-zhtUAAAAJ&hl=en), [Sunghyun Park](https://psh01087.github.io/), [Jaegul Choo](https://sites.google.com/site/jaegulchoo/)
+> [Jeongho Kim](https://scholar.google.co.kr/citations?user=4SCCBFwAAAAJ&hl=ko), [Hoiyeong Jin](https://scholar.google.com/citations?user=Jp-zhtUAAAAJ&hl=en), [Sunghyun Park](https://psh01087.github.io/), [Jaegul Choo](https://sites.google.com/site/jaegulchoo/)
 
-[[arXiv Paper](TODO: arxiv link)]&nbsp;
+[[arXiv Paper](TODO: arXiv link)]&nbsp;
 
 ![teaser](assets/teaser.png)&nbsp;
 
 ## TODO List
 - [v] ~~Inference code~~
 - [v] ~~Release model weights~~
-- [] Training code
+- [ ] Training code
 
 ## Environments
 ```bash
