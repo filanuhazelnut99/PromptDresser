@@ -4,7 +4,7 @@ This repository is the official implementation of [PromptDresser](TODO: arXiv li
 > **PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask**<br>
 > [Jeongho Kim](https://scholar.google.co.kr/citations?user=4SCCBFwAAAAJ&hl=ko), [Hoiyeong Jin](https://scholar.google.com/citations?user=Jp-zhtUAAAAJ&hl=en), [Sunghyun Park](https://psh01087.github.io/), [Jaegul Choo](https://sites.google.com/site/jaegulchoo/)
 
-[[arXiv Paper](TODO: arXiv link)]&nbsp;
+[[arXiv Paper](https://arxiv.org/abs/2412.16978)]&nbsp;
 
 ![teaser](assets/teaser.png)&nbsp;
 
@@ -94,7 +94,15 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --mixed_precision fp16 --num_proc
 ## Citation
 If you find our work useful for your research, please cite us:
 ```
-TODO: arxiv citation
+@misc{kim2024promptdresserimprovingqualitycontrollability,
+      title={PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask}, 
+      author={Jeongho Kim and Hoiyeong Jin and Sunghyun Park and Jaegul Choo},
+      year={2024},
+      eprint={2412.16978},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.16978}, 
+}
 ```
 
 ## License
