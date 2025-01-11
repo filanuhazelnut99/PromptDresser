@@ -679,22 +679,7 @@ class UNet2DConditionModel(ModelMixin, ConfigMixin, UNet2DConditionLoadersMixin)
 
         self.use_c_self_attention = True
         zero_rank_print_("unet clothing self attention layers are added")
-
-    def init_pose_encoder(self):
-        from .pose_encoder import ControlNetConditioningEmbedding
-        self.pose_encoder = ControlNetConditioningEmbedding(320)
-        zero_rank_print_("pose encoder are initialized")
-
-    def init_controlnet(self):
-        from diffusers import ControlNetModel
-        self.controlnet = ControlNetModel.from_unet(self)
-        zero_rank_print_("controlnet is initialized")
     
-    def init_controlnet2(self):
-        from .controlnet2 import ControlNetModel2
-        self.controlnet2 = ControlNetModel2.from_unet(self)
-        zero_rank_print_("controlnet2 is initialized")
-
     @property
     def attn_processors(self) -> Dict[str, AttentionProcessor]:
         r"""
