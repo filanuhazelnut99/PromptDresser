@@ -1,4 +1,4 @@
-# PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask
+# [ICCV2025] PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask
 This repository is the official implementation of [PromptDresser](https://arxiv.org/abs/2412.16978)
 
 > **PromptDresser: Improving the Quality and Controllability of Virtual Try-On via Generative Textual Prompt and Prompt-aware Mask**<br>
