@@ -1,6 +1,14 @@
 TEST1
+<<<<<<< .mine
 <<<<<<< HEAD
 hazel啦哈哈哈阿哈
 =======
 Niki hi ,watashiwa luke
 >>>>>>> b9a35325a8dcdb2777bde5a95e11729919cda280
+=======
+<<<<<<< HEAD
+
+兩行程式
+
+
+>>>>>>> .theirs
