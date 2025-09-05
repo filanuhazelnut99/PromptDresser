@@ -1,2 +1,6 @@
 TEST1
+<<<<<<< HEAD
 hazel啦哈哈哈阿哈
+=======
+Niki hi ,watashiwa luke
+>>>>>>> b9a35325a8dcdb2777bde5a95e11729919cda280
